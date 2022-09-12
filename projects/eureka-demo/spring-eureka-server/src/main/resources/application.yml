@@ -1,0 +1,14 @@
+server:
+  port: 8761
+eureka:
+  client:
+    registerWithEureka: false
+    fetchRegistry: false
+spring:
+  application:
+    name: eureka-server
+  cloud:
+    config:
+      server:
+        native:
+          searchLocations: file:C:\Users\sfjbs\Downloads\eureka-demo\app-config

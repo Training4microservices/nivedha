@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: discovery-client
+    profiles:
+      active : qa
+server:
+  port: 8383
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
